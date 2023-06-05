@@ -6,6 +6,9 @@
     --cardBG: hsl(216, 50%, 16%);
     --lineColor: hsl(215, 32%, 27%);
     --white: hsl(0, 0%, 100%);
+
+    --md: 16px;
+    --lg: 18px;
 }
 
 * {
@@ -29,7 +32,7 @@ body {
     display: grid;
     grid-template-columns: auto;
     width: 20rem;
-    height: 76%;
+    height: 80%;
     padding: 1.22rem;
     border-radius: 0.90rem;
     background-color: var(--cardBG);
@@ -46,3 +49,71 @@ body {
 }
 
 /* ------------------------------------------------------------------ */
+
+.card-information {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.9375rem;
+}
+
+/* ------------------------------------------------------------------ */
+
+.description {
+    display: flex;
+    flex-direction: column;
+    font-size: var(--lg);
+}
+.description h1 {
+    color: var(--white);
+    font-weight: 600;
+}
+.description p {
+    color: var(--softBlue);
+    font-weight: 300;
+    margin: 1.0625rem 0 0.125rem 0;
+}
+
+/* ------------------------------------------------------------------ */
+
+.stats {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 10px 0 10px 0;
+}
+.stats #funds {
+    color: var(--cyan);
+    font-size: var(--md);
+    font-weight: 400;
+}
+.stats #day-count {
+    color: var(--softBlue);
+    font-size: var(--md);
+    font-weight: 300;
+}
+
+/* ------------------------------------------------------------------ */
+
+.author {
+    display: flex;
+    padding-top: 12px;
+    border-top: 1px solid var(--lineColor);
+}
+.avatar {
+    display: inline-block;
+    width:35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid var(--white)
+}
+.author .name {
+    margin-left: 7px;
+    font-size: var(--md);
+    align-self: center;
+    font-weight: 300;
+    color: var(--softBlue);
+}
+.author .name strong {
+    color: var(--white);
+    font-weight: 300;
+}
