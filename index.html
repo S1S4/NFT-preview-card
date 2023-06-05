@@ -5,17 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/styles.css">
   <title>Frontend Mentor | NFT preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
-  <main>
+  <main class="main-container">
     <div class="card">
       <img class="banner" src="./images/image-equilibrium.jpg" alt="image-equilibrium">
       <div class="card-information">
@@ -26,11 +28,11 @@
 
         <section class="stats">
           <h2>0.041 ETH</h2>
-          <p>3 days left</p>
+          <span>3 days left</span>
         </section>
 
-        <section>
-          <h3>Creation of Jules Wyvern</h3>
+        <section class="author">
+          <h2>Creation of <strong>Jules Wyvern</strong></h2>
           <img class="avatar" src="./images/image-avatar.png" alt="avatar">
         </section>
       </div>
