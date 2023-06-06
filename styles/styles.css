@@ -106,9 +106,9 @@ body::-webkit-scrollbar {
 }
 .description p {
     color: var(--softBlue);
-    font-size: var(--lg);
+    font-size: var(--md);
     font-weight: 300;
-    margin: 1.0625rem 0 0.125rem 0;
+    margin: 1.0625rem 0 0.75rem 0;
 }
 
 /* ------------------------------------------------------------------ */
