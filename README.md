@@ -22,7 +22,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: [Solution Page]()
+- Solution URL: [Solution Page](https://www.frontendmentor.io/solutions/responsive-nft-card-using-css-grid-SmcASEmcwn)
 - Live Site: [Live Site at Github Pages](https://s1s4.github.io/NFT-preview-card/)
 
 ## My process
