@@ -73,7 +73,7 @@ body::-webkit-scrollbar {
     background-image: none;
 }
 .overlay-image:hover {
-    background-image: url("/images/icon-view.svg");
+    background-image: url("../images/icon-view.svg");
     background-color: rgba(0,255,247,0.5);
     background-repeat: no-repeat;
     background-position: 50% 50%;
